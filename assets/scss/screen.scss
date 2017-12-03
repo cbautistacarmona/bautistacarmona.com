@@ -1,0 +1,165 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// Command line
+// sass --watch assets/scss:assets/css
+
+/* 1. Configuration and helpers */
+@import 'variables';
+//@import 'abstracts/functions';
+@import 'mixins';
+
+
+/* 2. Vendors */
+//@import "compass/reset";
+
+/* 3. Base stuff */
+// @import 'base/base';
+// @import 'base/fonts';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+//@import 'base/typography';
+//@import 'base/helpers';
+
+/* 4. Layout-related sections */
+// @import 'layout/header';
+// @import 'layout/navigation';
+// @import 'layout/footer/footer';
+// @import 'layout/footer/socials';
+// @import 'layout/footer/copyrights';
+// @import 'layout/footer/bottom-layers';
+
+// /* 5. Components - (and Re-usable stuff) */
+// @import 'components/button';
+// @import 'components/comments';
+// @import 'components/list-content';
+// @import 'components/widgets/widgets'; // Pourrait être séparé en différents fichiers pour les différents widgets
+// @import 'components/widgets/related-top-posts'; // Exemple ici
+
+// /* 6. Plugins */
+// @import 'plugins/modaal';
+// @import 'plugins/photoswipe';
+// @import 'plugins/amazon';
+
+// /* 7. Page-specific styles */
+// @import 'pages/home';
+// @import 'pages/404';
+
+body{
+	font-family: $josefin-font;
+}
+
+/*h1{
+	color: $primary-color;
+}*/
+
+p{
+	font-family: $text-font;
+}
+
+body{
+	background-color: $bg-color;
+}
+
+.cbc-intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	background-color: $bg-color;
+	background-img: url('#{$cbc-image-url}cbc-intro-cover-bg.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+
+	.cbc-logo{
+		width: 200px;
+		height: 200px;
+		text-shadow: 0 0 5px #000000;
+
+	}
+	h1{
+		color: #fff;
+		display: none;
+		small{
+			color: $primary-color;
+			text-shadow: 0 0 3px #ffffff;
+
+		}
+	}
+}
+
+.cbc-about-me{
+	text-align:center;
+
+}
+
+// Photo Gallery
+.gallery-height {
+	-moz-column-width: 25em;
+ 	-webkit-column-width: 25em;
+ 	-moz-column-gap: $gallery-padding;
+	-webkit-column-gap: $gallery-padding; 
+	// display: flex;
+	// flex-direction: column;
+	// flex-wrap: wrap;
+
+	// align-content: center;
+	// max-height: 1200px;
+	// @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { //  pour IE versions 10, 11 et Edge
+	// 	height: 1200px;
+	// }
+
+
+	.img{
+		//width: 32%;
+		// display: flex;
+		// justify-content: space-around;
+		// align-items: center;
+		display: inline-block;
+		margin:  $gallery-padding;
+		width:  100%; 
+		background-color: orange;
+		color: aliceblue;
+		font-size: 45px;
+		border-radius: 2px;
+		// Phone
+		@include media-bp(xs-screen){
+
+			//width: 45%;
+
+		}
+	}
+}
+
+.cbc-social-networks{
+	color: #000;
+	text-align:center;
+	//background-color: #000;
+	a{
+		color: #000;
+	}
+	margin-bottom: 20px;
+}
+
+.cbc-footer{
+	color: #fff;
+	padding: 1rem;
+	text-align:center;
+	background-color: #000;
+	a{
+		color: #fff;
+	}
+}
+
+

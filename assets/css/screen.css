@@ -1,0 +1,117 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* 1. Configuration and helpers */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i");
+.hidden-xs {
+  /*.sidebar {
+    width: 33.33%;
+    @include media-bp(xs-screen) {
+      width: 100%;
+    }
+  }*/ }
+  @media (max-width: 480px) {
+    .hidden-xs {
+      display: none !important; } }
+
+.visible-xs {
+  /*.sidebar {
+    width: 33.33%;
+    @include media-bp(xs-screen) {
+      width: 100%;
+    }
+  }*/ }
+  @media (max-width: 480px) {
+    .visible-xs {
+      display: block !important; } }
+
+/*@mixin page-evt-heroine-dark-wrap(){
+  background-color: $page-evt-heroine-dark-bg;
+  .heroines-events-section-title{
+    color: #fff;
+  }
+}*/
+/* 2. Vendors */
+/* 3. Base stuff */
+/* Fonts */
+/* 4. Layout-related sections */
+body {
+  font-family: "Josefin Sans", sans-serif; }
+
+/*h1{
+	color: $primary-color;
+}*/
+p {
+  font-family: "Josefin Sans", sans-serif; }
+
+body {
+  background-color: #fff; }
+
+.cbc-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  background-img: url("../img/cbc-intro-cover-bg.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
+  .cbc-intro .cbc-logo {
+    width: 200px;
+    height: 200px;
+    text-shadow: 0 0 5px #000000; }
+  .cbc-intro h1 {
+    color: #fff;
+    display: none; }
+    .cbc-intro h1 small {
+      color: #981034;
+      text-shadow: 0 0 3px #ffffff; }
+
+.cbc-about-me {
+  text-align: center; }
+
+.gallery-height {
+  -moz-column-width: 25em;
+  -webkit-column-width: 25em;
+  -moz-column-gap: 5px;
+  -webkit-column-gap: 5px; }
+  .gallery-height .img {
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+    background-color: orange;
+    color: aliceblue;
+    font-size: 45px;
+    border-radius: 2px;
+    /*.sidebar {
+      width: 33.33%;
+      @include media-bp(xs-screen) {
+        width: 100%;
+      }
+    }*/ }
+
+.cbc-social-networks {
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px; }
+  .cbc-social-networks a {
+    color: #000; }
+
+.cbc-footer {
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  background-color: #000; }
+  .cbc-footer a {
+    color: #fff; }
+
+/*# sourceMappingURL=screen.css.map */

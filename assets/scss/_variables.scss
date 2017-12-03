@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Usefull path
+$cbc-image-url               : '../img/';
+// cbc-image-design          : '../images/design/';
+// cbc-image-data            : '../images/data/';
+$cbc-font-path             	 : '../fonts/';
+
+// $fa-version:          "4.3.0" !default;
+
+// Colors
+$light-gray					: rgba(232, 232, 232, 1);
+$gray						: rgba(204, 204, 204, 1);
+$red-wine					: rgba(152,  16,  52, 1);
+$beige						: rgba(249, 245, 233, 1);
+
+
+// Colors roles
+$primary-color : $red-wine;
+$border-color: $light-gray;
+$darker-border-color: $gray; // widget
+$bg-color: #fff	;
+
+// Fonts
+$arial-font: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$josefin-font: 'Josefin Sans', sans-serif;
+$josefin-sans-font-light: 300;
+$josefin-sans-font-regular: 400;
+$josefin-sans-font-semi-bold: 600;
+$josefin-sans-font-bold: 700;
+$josefin-sans-font-extra-bold: 800;
+
+
+
+// Fonts roles
+
+/// Regular font family
+/// @type List
+/// $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$text-font: $josefin-font !default;
+
+
+/// Code (monospace) font family
+/// @type List
+/// $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// Container's maximum width
+/// @type Length
+/// $max-width: 1180px !default;
+
+// Media queries breakpoints map
+$xs-screen: '(max-width: 480px)';
+$sm-screen: '(max-width: 768px)';
+$md-screen: '(max-width: 1024px)';
+$lg-screen: '(max-width: 1200px)';
+
+/// Theme variables
+
+$gallery-padding: 5px ;
