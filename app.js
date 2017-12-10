@@ -29,6 +29,7 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
         //console.log('Le script CBC_scripts version '+codeVersion+' est initialisé.');
         publics.manageEvents();
 
+
         // Le code ici sera exécutable via « publics.init() ».
       }
 
@@ -176,7 +177,6 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
         // Au Chargement du dom
         $(document).ready(function($) {
           publics.introCBC();
-
           //publics.getFlickrGallery();
           //publics.getFlickrAlbum();
         })

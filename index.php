@@ -32,7 +32,7 @@
 	</head>
 	<body>
 
-	<section class="cbc-intro" style="background-color: #931c3d; background-image: url('assets/img/cbc-intro-cover-md.jpg?v=<?php echo $app_version; ?>');">
+	<section class="cbc-intro" style="background-color: #931c3d; background-image: url('assets/img/cbc-intro-cover-sm.jpg?v=<?php echo $app_version; ?>');">
 		<svg class="cbc-logo center-block" xmlns="http://www.w3.org/2000/svg" width="350.544" height="314.344" viewBox="0 0 350.544 314.344"><path fill="#931C3D" d="M350.544 167.34s-113.778 152.447-178.76 146.854C112.353 309.082 0 152.766 0 152.766S116.92-5.447 181.903.146c59.43 5.112 168.64 167.194 168.64 167.194z"/><path fill="#FFF" d="M322.365 167.65s-16.697 22.37-26.235 21.55c-8.724-.75-25.21-23.688-25.21-23.688s17.16-23.22 26.696-22.398c8.72.748 24.75 24.536 24.75 24.536zM182.817 62.086c24.34 0 41.454 10.27 54.005 22.058L221.228 104.3c-11.03-9.506-22.438-16.353-37.27-16.353-33.47 0-57.81 28.905-57.81 71.5 0 42.214 23.2 70.738 57.048 70.738 17.494 0 32.327-8.746 43.356-18.637l14.07 20.54c-16.733 14.83-38.03 23.958-60.09 23.958-49.06 0-86.71-35.37-86.71-96.6 0-61.99 41.455-97.36 88.995-97.36z"/></svg>
 		<h1 class="text-center">
 				Cristina Bautista Carmona
@@ -58,33 +58,33 @@
 	<section class="">
 		<div id="flickr-gallery" class="gallery-height container">
 			<?php // emmet img.img[src=assets/img/portfolio/$$$.jpg alt=$$$]*28 -->?>
-<img src="assets/img/portfolio/001.jpg?v=<?php echo $app_version; ?>" alt="001" class="img">
-<img src="assets/img/portfolio/002.jpg?v=<?php echo $app_version; ?>" alt="002" class="img">
-<img src="assets/img/portfolio/003.jpg?v=<?php echo $app_version; ?>" alt="003" class="img">
-<img src="assets/img/portfolio/004.jpg?v=<?php echo $app_version; ?>" alt="004" class="img">
-<img src="assets/img/portfolio/005.jpg?v=<?php echo $app_version; ?>" alt="005" class="img">
-<img src="assets/img/portfolio/006.jpg?v=<?php echo $app_version; ?>" alt="006" class="img">
-<img src="assets/img/portfolio/007.jpg?v=<?php echo $app_version; ?>" alt="007" class="img">
-<img src="assets/img/portfolio/008.jpg?v=<?php echo $app_version; ?>" alt="008" class="img">
-<img src="assets/img/portfolio/009.jpg?v=<?php echo $app_version; ?>" alt="009" class="img">
-<img src="assets/img/portfolio/010.jpg?v=<?php echo $app_version; ?>" alt="010" class="img">
-<img src="assets/img/portfolio/011.jpg?v=<?php echo $app_version; ?>" alt="011" class="img">
-<img src="assets/img/portfolio/012.jpg?v=<?php echo $app_version; ?>" alt="012" class="img">
-<img src="assets/img/portfolio/013.jpg?v=<?php echo $app_version; ?>" alt="013" class="img">
-<img src="assets/img/portfolio/014.jpg?v=<?php echo $app_version; ?>" alt="014" class="img">
-<img src="assets/img/portfolio/015.jpg?v=<?php echo $app_version; ?>" alt="015" class="img">
-<img src="assets/img/portfolio/016.jpg?v=<?php echo $app_version; ?>" alt="016" class="img">
-<img src="assets/img/portfolio/017.jpg?v=<?php echo $app_version; ?>" alt="017" class="img">
-<img src="assets/img/portfolio/018.jpg?v=<?php echo $app_version; ?>" alt="018" class="img">
-<img src="assets/img/portfolio/019.jpg?v=<?php echo $app_version; ?>" alt="019" class="img">
-<img src="assets/img/portfolio/020.jpg?v=<?php echo $app_version; ?>" alt="020" class="img">
-<img src="assets/img/portfolio/021.jpg?v=<?php echo $app_version; ?>" alt="021" class="img">
-<img src="assets/img/portfolio/022.jpg?v=<?php echo $app_version; ?>" alt="022" class="img">
-<img src="assets/img/portfolio/024.jpg?v=<?php echo $app_version; ?>" alt="024" class="img">
-<img src="assets/img/portfolio/025.jpg?v=<?php echo $app_version; ?>" alt="025" class="img">
-<img src="assets/img/portfolio/026.jpg?v=<?php echo $app_version; ?>" alt="026" class="img">
-<img src="assets/img/portfolio/027.jpg?v=<?php echo $app_version; ?>" alt="027" class="img">
-<img src="assets/img/portfolio/028.jpg?v=<?php echo $app_version; ?>" alt="028" class="img">
+<img data-src="assets/img/portfolio/001.jpg" alt="001" class="img lazy">
+<img data-src="assets/img/portfolio/002.jpg" alt="002" class="img lazy">
+<img data-src="assets/img/portfolio/003.jpg" alt="003" class="img lazy">
+<img data-src="assets/img/portfolio/004.jpg" alt="004" class="img lazy">
+<img data-src="assets/img/portfolio/005.jpg" alt="005" class="img lazy">
+<img data-src="assets/img/portfolio/006.jpg" alt="006" class="img lazy">
+<img data-src="assets/img/portfolio/007.jpg" alt="007" class="img lazy">
+<img data-src="assets/img/portfolio/008.jpg" alt="008" class="img lazy">
+<img data-src="assets/img/portfolio/009.jpg" alt="009" class="img lazy">
+<img data-src="assets/img/portfolio/010.jpg" alt="010" class="img lazy">
+<img data-src="assets/img/portfolio/011.jpg" alt="011" class="img lazy">
+<img data-src="assets/img/portfolio/012.jpg" alt="012" class="img lazy">
+<img data-src="assets/img/portfolio/013.jpg" alt="013" class="img lazy">
+<img data-src="assets/img/portfolio/014.jpg" alt="014" class="img lazy">
+<img data-src="assets/img/portfolio/015.jpg" alt="015" class="img lazy">
+<img data-src="assets/img/portfolio/016.jpg" alt="016" class="img lazy">
+<img data-src="assets/img/portfolio/017.jpg" alt="017" class="img lazy">
+<img data-src="assets/img/portfolio/018.jpg" alt="018" class="img lazy">
+<img data-src="assets/img/portfolio/019.jpg" alt="019" class="img lazy">
+<img data-src="assets/img/portfolio/020.jpg" alt="020" class="img lazy">
+<img data-src="assets/img/portfolio/021.jpg" alt="021" class="img lazy">
+<img data-src="assets/img/portfolio/022.jpg" alt="022" class="img lazy">
+<img data-src="assets/img/portfolio/024.jpg" alt="024" class="img lazy">
+<img data-src="assets/img/portfolio/025.jpg" alt="025" class="img lazy">
+<img data-src="assets/img/portfolio/026.jpg" alt="026" class="img lazy">
+<img data-src="assets/img/portfolio/027.jpg" alt="027" class="img lazy">
+<img data-src="assets/img/portfolio/028.jpg" alt="028" class="img lazy">
 
 <!-- 				<div class="img" style="height:290px;background:#9B2322">2</div>
 				 <div class="img" style="height:130px;background:#D968D9">3</div>
@@ -110,6 +110,7 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<script src="assets/js/vendor/velocity.min.js"></script>
 		<script src="app.js?v=<?php echo $app_version; ?>"></script>
+		<script src="assets/js/vendor/jquery.lazyloadxt.js"></script>
 		<!--script src="dist/bundle.js"></script-->
 		<!-- Bootstrap JavaScript -->
 		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
