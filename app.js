@@ -160,6 +160,56 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
       }
 
 
+      publics.openPhotoSwipe = function(){
+        var pswpElement = document.querySelectorAll('.pswp')[0];
+        // build items array
+        var items = [
+            {
+            src: 'assets/img/portfolio/HD/001.jpg',
+            w: 1024,
+            h: 685
+        },
+        {
+            src: 'assets/img/portfolio/HD/002.jpg',
+            w: 1024,
+            h: 685
+        },
+        {
+            src: 'assets/img/portfolio/HD/003.jpg',
+            w: 1024,
+            h: 768
+        },
+        {
+            src: 'assets/img/portfolio/HD/004.jpg',
+            w: 1024,
+            h: 687
+        },
+        {
+            src: 'assets/img/portfolio/HD/005.jpg',
+            w: 1024,
+            h: 685
+        }
+                
+        ];
+        
+        // define options (if needed)
+        var options = {
+                 // history & focus options are disabled on CodePen        
+            history: false,
+            focus: false,
+            allowPanToNext:true,
+            showAnimationDuration: 0,
+            hideAnimationDuration: 0
+            
+        };
+        
+        var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+  
+
+      }
+
+
 
 
     // All events
@@ -188,10 +238,11 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
       });
 
       // CLICK EVENTS
-      $(".container").on('click', '.my-link', function(e) {
-          e.preventDefault();
-          e.stopPropagation();
-          publics.go_nextNews();
+      $("#flickr-gallery").on('click', 'a', function(e) {
+        e.preventDefault();
+        var imageGalleryIndex = $(this).index();
+        console.log( "Index: " +  imageGalleryIndex + typeof(imageGalleryIndex) );
+        publics.openPhotoSwipe();
       });
 
       // Custom events

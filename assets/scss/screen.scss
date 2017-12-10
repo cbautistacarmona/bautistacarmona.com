@@ -30,7 +30,6 @@
 // @import 'layout/footer/footer';
 // @import 'layout/footer/socials';
 // @import 'layout/footer/copyrights';
-// @import 'layout/footer/bottom-layers';
 
 // /* 5. Components - (and Re-usable stuff) */
 // @import 'components/button';
@@ -41,7 +40,8 @@
 
 // /* 6. Plugins */
 // @import 'plugins/modaal';
-// @import 'plugins/photoswipe';
+ @import 'plugins/photoswipe/main';
+ @import 'plugins/photoswipe/default-skin/default-skin';
 // @import 'plugins/amazon';
 
 // /* 7. Page-specific styles */
