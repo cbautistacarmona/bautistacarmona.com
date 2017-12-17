@@ -58,33 +58,33 @@
 	<section class="">
 		<div id="flickr-gallery" class="gallery-height container">
 			<?php // emmet a>img.img[src=assets/img/portfolio/$$$.jpg alt=$$$]*28 -->?>
-			<a href="#"><img data-src="assets/img/portfolio/BD/001.jpg" alt="001" class="img lazy" data-size="1024x685"></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/002.jpg" alt="002" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/003.jpg" alt="003" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/004.jpg" alt="004" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/005.jpg" alt="005" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/006.jpg" alt="006" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/007.jpg" alt="007" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/008.jpg" alt="008" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/009.jpg" alt="009" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/010.jpg" alt="010" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/011.jpg" alt="011" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/012.jpg" alt="012" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/013.jpg" alt="013" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/014.jpg" alt="014" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/015.jpg" alt="015" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/016.jpg" alt="016" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/017.jpg" alt="017" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/018.jpg" alt="018" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/019.jpg" alt="019" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/020.jpg" alt="020" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/021.jpg" alt="021" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/022.jpg" alt="022" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/024.jpg" alt="024" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/025.jpg" alt="025" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/026.jpg" alt="026" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/027.jpg" alt="027" class="img lazy" data-size=""></a>
-			<a href="#"><img data-src="assets/img/portfolio/BD/028.jpg" alt="028" class="img lazy" data-size=""></a>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/001.jpg" data-src-hd="assets/img/portfolio/HD/001.jpg" alt="001" class="img lazy" data-caption="" data-width="1024" data-height="685"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/002.jpg"  data-src-hd="assets/img/portfolio/HD/002.jpg" alt="002" class="img lazy"  data-caption="" data-width="1024" data-height="685"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/003.jpg" data-src-hd="assets/img/portfolio/HD/003.jpg" alt="003" class="img lazy"  data-caption="" data-width="1024" data-height="768"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/004.jpg" data-src-hd="assets/img/portfolio/HD/004.jpg" alt="004" class="img lazy"  data-caption="" data-width="1024" data-height="687"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/005.jpg" data-src-hd="assets/img/portfolio/HD/005.jpg" alt="005" class="img lazy"  data-caption="" data-width="1024" data-height="685"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/006.jpg" data-src-hd="assets/img/portfolio/HD/006.jpg" alt="006" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/007.jpg" data-src-hd="assets/img/portfolio/HD/007.jpg" alt="007" class="img lazy"  data-caption="" data-width="2048" data-height="2048"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/008.jpg" data-src-hd="assets/img/portfolio/HD/008.jpg" alt="008" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/009.jpg" data-src-hd="assets/img/portfolio/HD/009.jpg" alt="009" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/010.jpg" data-src-hd="assets/img/portfolio/HD/010.jpg" alt="010" class="img lazy"  data-caption="" data-width="2048" data-height="2048"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/011.jpg" data-src-hd="assets/img/portfolio/HD/011.jpg" alt="011" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/012.jpg" data-src-hd="assets/img/portfolio/HD/012.jpg" alt="012" class="img lazy"  data-caption="" data-width="1367" data-height="2048"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/013.jpg" data-src-hd="assets/img/portfolio/HD/013.jpg" alt="013" class="img lazy"  data-caption="" data-width="2048" data-height="819"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/014.jpg" data-src-hd="assets/img/portfolio/HD/014.jpg" alt="014" class="img lazy"  data-caption="" data-width="2048" data-height="2048"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/015.jpg" data-src-hd="assets/img/portfolio/HD/015.jpg" alt="015" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/016.jpg" data-src-hd="assets/img/portfolio/HD/016.jpg" alt="016" class="img lazy"  data-caption="" data-width="2048" data-height="1229"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/017.jpg" data-src-hd="assets/img/portfolio/HD/017.jpg" alt="017" class="img lazy"  data-caption="" data-width="2048" data-height="1536"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/018.jpg" data-src-hd="assets/img/portfolio/HD/018.jpg" alt="018" class="img lazy"  data-caption="" data-width="2048" data-height="1152"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/019.jpg" data-src-hd="assets/img/portfolio/HD/019.jpg" alt="019" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/020.jpg" data-src-hd="assets/img/portfolio/HD/020.jpg" alt="020" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/021.jpg" data-src-hd="assets/img/portfolio/HD/021.jpg" alt="021" class="img lazy"  data-caption="" data-width="2048" data-height="2048"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/022.jpg" data-src-hd="assets/img/portfolio/HD/022.jpg" alt="022" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/024.jpg" data-src-hd="assets/img/portfolio/HD/024.jpg" alt="024" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/025.jpg" data-src-hd="assets/img/portfolio/HD/025.jpg" alt="025" class="img lazy"  data-caption="" data-width="2048" data-height="1152"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/026.jpg" data-src-hd="assets/img/portfolio/HD/026.jpg" alt="026" class="img lazy"  data-caption="" data-width="2048" data-height="1367"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/027.jpg" data-src-hd="assets/img/portfolio/HD/027.jpg" alt="027" class="img lazy"  data-caption="" data-width="640" data-height="640"></a></figure>
+			<figure><a href="#"><img data-src="assets/img/portfolio/BD/028.jpg" data-src-hd="assets/img/portfolio/HD/028.jpg" alt="028" class="img lazy"  data-caption="" data-width="2048" data-height="2048"></a></figure>
 
 <!-- 				<div class="img" style="height:290px;background:#9B2322">2</div>
 				 <div class="img" style="height:130px;background:#D968D9">3</div>

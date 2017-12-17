@@ -26,6 +26,8 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
       publics.init = function () {
         //var  s = this.settings;
         var codeVersion = settings.version;
+
+        //publics.initPhotoSwipe();
         //console.log('Le script CBC_scripts version '+codeVersion+' est initialisé.');
         publics.manageEvents();
 
@@ -143,10 +145,6 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
 
 
 
-
-
-
-
       }
 
       publics.doIsotope = function(){
@@ -160,55 +158,12 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
       }
 
 
-      publics.openPhotoSwipe = function(){
-        var pswpElement = document.querySelectorAll('.pswp')[0];
-        // build items array
-        var items = [
-            {
-            src: 'assets/img/portfolio/HD/001.jpg',
-            w: 1024,
-            h: 685
-        },
-        {
-            src: 'assets/img/portfolio/HD/002.jpg',
-            w: 1024,
-            h: 685
-        },
-        {
-            src: 'assets/img/portfolio/HD/003.jpg',
-            w: 1024,
-            h: 768
-        },
-        {
-            src: 'assets/img/portfolio/HD/004.jpg',
-            w: 1024,
-            h: 687
-        },
-        {
-            src: 'assets/img/portfolio/HD/005.jpg',
-            w: 1024,
-            h: 685
-        }
-                
-        ];
-        
-        // define options (if needed)
-        var options = {
-                 // history & focus options are disabled on CodePen        
-            history: false,
-            focus: false,
-            allowPanToNext:true,
-            showAnimationDuration: 0,
-            hideAnimationDuration: 0
-            
-        };
-        
-        var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-        gallery.init();
-  
+      publics.initPhotoSwipe = function(){
+      
 
-      }
 
+
+    }
 
 
 
@@ -237,13 +192,56 @@ var CBC_scripts = CBC_scripts || {}; // Si « CBC_scripts » a déjà été cré
 
       });
 
+
+      // Init empty gallery array
+      var container = [];
+
+      // Loop over gallery items and push it to the array
+      $('#flickr-gallery').find('figure').each(function() {
+        var $link = $(this).find('a>img'),
+          item = {
+            src: $link.data('src-hd'),
+            w: $link.data('width'),
+            h: $link.data('height')/*,
+            title: $link.data('caption')*/
+          };
+
+          console.log(item);
+        container.push(item);
+      });
+
+
+      // Define click event on gallery item
+       $("#flickr-gallery").on('click', 'a', function(e) {
+
+        // Prevent location change
+        e.preventDefault();
+
+        // Define object and gallery options
+        var $pswp = $('.pswp')[0],
+          options = {
+            index: $(this).parent('figure').index(),
+            bgOpacity: 0.85,
+            showHideOpacity: true
+          };
+
+        
+       
+         // Initialize PhotoSwipe
+         // var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+        gallery.init();
+  
+
+      });
+
       // CLICK EVENTS
-      $("#flickr-gallery").on('click', 'a', function(e) {
+      /*$("#flickr-gallery").on('click', 'a', function(e) {
         e.preventDefault();
         var imageGalleryIndex = $(this).index();
         console.log( "Index: " +  imageGalleryIndex + typeof(imageGalleryIndex) );
         publics.openPhotoSwipe();
-      });
+      });*/
 
       // Custom events
       $(document).on('introCBCompleted', function(){
